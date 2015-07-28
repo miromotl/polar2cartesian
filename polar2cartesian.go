@@ -9,7 +9,7 @@ import (
 )
 
 // Strings for user interaction
-const result = "Polar radius=%.02f θ=%.02f → Cartesian x=.02f y=.02f\n"
+const result = "Polar radius=%.02f θ=%.02f → Cartesian x=%.02f y=%.02f\n"
 
 var prompt = "Enter a radius and an angle (in degrees), e.g., 12.5 90, " +
              "or %s to quit."
